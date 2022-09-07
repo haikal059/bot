@@ -36,7 +36,7 @@ headers = {
 
 while True:
     sleep(2)
-    url = 'https://receive-smss.com/sms/15714788202/'
+    url = 'https://receive-smss.com/sms/14438394437/'
     res = requests.get(url, cookies=cookies, headers=headers)
     
     soup = BeautifulSoup(res.content, 'html.parser')
